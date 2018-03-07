@@ -12,10 +12,10 @@ class App extends Component {
           <h1 className="App-title">Counter Example</h1>
         </header>
         <div>
-          <Counter />
-          <Counter />
-          <Counter />
-          <Counter />
+          <Counter name="red" />
+          <Counter name="green" />
+          <Counter name="blue" />
+          <Counter name="purple"/>
         </div>
       </div>
     );
